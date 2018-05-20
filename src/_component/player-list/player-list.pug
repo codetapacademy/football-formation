@@ -1,0 +1,5 @@
+.player-list
+    //- pre=JSON.stringify(data['match-lineup'],  null,  2)
+    each player in data['match-lineup'].players
+        //- div=player.name
+        include ../player/player
