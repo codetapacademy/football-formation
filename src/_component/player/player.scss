@@ -1,0 +1,11 @@
+.player {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(asset/image/player-shirt.png);
+    width: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
