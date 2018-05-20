@@ -2,7 +2,7 @@
     const type = player && player.type || 'type'
     const position = player && player.position || 'ps'
     const name = player && player.name || 'name'
-.player
+div(class=`player a${player.formation_place}`)
     .player__type=type
     .player__position=position
     .player__name=name
